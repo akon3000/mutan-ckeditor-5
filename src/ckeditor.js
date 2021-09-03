@@ -11,6 +11,7 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
+import InsertImage from '@ckeditor/ckeditor5-image/src/imageinsert';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
@@ -39,6 +40,7 @@ Editor.builtinPlugins = [
 	Essentials,
 	Heading,
 	Image,
+	InsertImage,
 	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
