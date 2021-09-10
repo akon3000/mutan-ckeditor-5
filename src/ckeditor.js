@@ -29,6 +29,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
+import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport.js';
 
 class Editor extends ClassicEditor {}
 
@@ -59,7 +60,8 @@ Editor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	SourceEditing
+	SourceEditing,
+	GeneralHtmlSupport
 ];
 
 export default Editor;
