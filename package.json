@@ -26,6 +26,7 @@
     "@ckeditor/ckeditor5-editor-classic": "^29.2.0",
     "@ckeditor/ckeditor5-essentials": "^29.2.0",
     "@ckeditor/ckeditor5-heading": "^29.2.0",
+    "@ckeditor/ckeditor5-html-support": "^29.2.0",
     "@ckeditor/ckeditor5-image": "^29.2.0",
     "@ckeditor/ckeditor5-indent": "^29.2.0",
     "@ckeditor/ckeditor5-link": "^29.2.0",
@@ -33,9 +34,11 @@
     "@ckeditor/ckeditor5-media-embed": "^29.2.0",
     "@ckeditor/ckeditor5-paragraph": "^29.2.0",
     "@ckeditor/ckeditor5-paste-from-office": "^29.2.0",
+    "@ckeditor/ckeditor5-source-editing": "^29.2.0",
     "@ckeditor/ckeditor5-table": "^29.2.0",
     "@ckeditor/ckeditor5-theme-lark": "^29.2.0",
     "@ckeditor/ckeditor5-typing": "^29.2.0",
+    "@emagtechlabs/ckeditor5-file-upload": "^1.0.4",
     "css-loader": "^5.2.7",
     "postcss": "^8.3.6",
     "postcss-loader": "^4.3.0",
@@ -48,9 +51,5 @@
   "scripts": {
     "build": "webpack --mode production"
   },
-  "dependencies": {
-    "@ckeditor/ckeditor5-html-support": "^29.2.0",
-    "@ckeditor/ckeditor5-source-editing": "^29.2.0",
-    "mutan-ckeditor-5": "^0.0.1"
-  }
+  "dependencies": {}
 }

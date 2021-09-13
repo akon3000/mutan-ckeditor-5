@@ -6,8 +6,6 @@ import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
-import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder.js';
-import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
@@ -30,6 +28,8 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
 import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport.js';
+import FileUpload from '@emagtechlabs/ckeditor5-file-upload/fileupload';
+import SimpleFileUploadAdapter from '@emagtechlabs/ckeditor5-file-upload/src/simplefileuploadadapter'
 
 class Editor extends ClassicEditor {}
 
@@ -38,8 +38,6 @@ Editor.builtinPlugins = [
 	Autoformat,
 	BlockQuote,
 	Bold,
-	CKFinder,
-	CKFinderUploadAdapter,
 	Essentials,
 	Heading,
 	Image,
@@ -61,7 +59,9 @@ Editor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	SourceEditing,
-	GeneralHtmlSupport
+	GeneralHtmlSupport,
+	FileUpload,
+	SimpleFileUploadAdapter
 ];
 
 export default Editor;
