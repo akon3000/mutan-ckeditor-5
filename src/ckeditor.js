@@ -28,8 +28,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
 import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport.js';
-import FileUpload from '@emagtechlabs/ckeditor5-file-upload/fileupload';
-import SimpleFileUploadAdapter from '@emagtechlabs/ckeditor5-file-upload/src/simplefileuploadadapter'
+import FileUpload from './file-upload/fileupload'
 
 class Editor extends ClassicEditor {}
 
@@ -61,7 +60,6 @@ Editor.builtinPlugins = [
 	SourceEditing,
 	GeneralHtmlSupport,
 	FileUpload,
-	SimpleFileUploadAdapter
 ];
 
 export default Editor;

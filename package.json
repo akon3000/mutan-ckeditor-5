@@ -38,7 +38,6 @@
     "@ckeditor/ckeditor5-table": "^29.2.0",
     "@ckeditor/ckeditor5-theme-lark": "^29.2.0",
     "@ckeditor/ckeditor5-typing": "^29.2.0",
-    "@emagtechlabs/ckeditor5-file-upload": "^1.0.4",
     "css-loader": "^5.2.7",
     "postcss": "^8.3.6",
     "postcss-loader": "^4.3.0",
