@@ -25,6 +25,7 @@
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.4.2",
     "@ckeditor/ckeditor5-editor-classic": "^29.2.0",
     "@ckeditor/ckeditor5-essentials": "^29.2.0",
+    "@ckeditor/ckeditor5-font": "^32.0.0",
     "@ckeditor/ckeditor5-heading": "^29.2.0",
     "@ckeditor/ckeditor5-html-support": "^29.2.0",
     "@ckeditor/ckeditor5-image": "^29.2.0",
@@ -45,7 +46,7 @@
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^4.2.3",
     "webpack": "^4.46.0",
-    "webpack-cli": "^4.8.0"
+    "webpack-cli": "^4.9.2"
   },
   "scripts": {
     "build": "webpack --mode production"
