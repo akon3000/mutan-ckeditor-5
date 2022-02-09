@@ -29,7 +29,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
 import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport.js';
 import FileUpload from './file-upload/fileupload';
-import Font from '@ckeditor/ckeditor5-font/src/font.js';
+import Font from '@ckeditor/ckeditor5-font/src/font';
 
 class Editor extends ClassicEditor {}
 
